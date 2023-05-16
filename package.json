@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.16.4",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "10.4.14",
+    "contentful": "^10.1.8",
+    "next": "13.4.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-before-after-slider-component": "^1.1.8",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-image-comparison": "^0.1.5",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "3.3.2"
+  }
+}
