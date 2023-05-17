@@ -39,7 +39,7 @@ export default function CardAbout({ title, subtitle, description, url_img }) {
           className="border-4 border-white shadow-xl hover:shadow-2xl rounded-lg h-auto max-w-full"
         />
         <img
-          src="img/about/yoda.jpg"
+          src="img/about/Yoda.jpg"
           alt="yoda"
           className="border-4 border-white shadow-xl hover:shadow-2xl rounded-lg h-full max-w-full"
         />
