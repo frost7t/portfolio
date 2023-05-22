@@ -13,17 +13,17 @@ export default function About() {
       <Layout>
         <div className="">
           <div className="border-b-2 border shadow-lg">
-            <div className="mx-auto max-w-[1040px]">
+            <div className="mx-auto max-w-[1040px] md:pb-10">
               <CardAbout
                 title="About."
                 subtitle="I'm a product designer and web developer based in Normandie."
                 description="Since 2021, I've enjoyed turning complex problems into simple, beautiful and intuitive designs.you'll find me cooking, code or play.I show wisdom like yoda"
-                url_img="img/about.jpg"
+                url_img="img/n1.png"
               />
             </div>
           </div>
           <div className="border-b-2 border ">
-            <div className="mx-auto max-w-[1040px]">
+            <div className="mx-auto max-w-[1040px] md:pt-14">
               <CardPart
                 title="Part designer"
                 title2="Part coder"

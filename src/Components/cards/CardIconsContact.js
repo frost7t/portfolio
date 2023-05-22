@@ -26,15 +26,6 @@ export default function CardIconsContact() {
           />
           <span className="text-blue-500 font-semibold text-lg">Linkedin</span>
         </div>
-        <div className="flex items-center space-x-5 pb-2">
-          <BsInstagram
-            className="text-pink-400 rounded-xl "
-            style={{ fontSize: "2.5em" }}
-          />
-          <span className="text-pink-800 font-semibold text-lg ">
-            Instagram
-          </span>
-        </div>
       </div>
     </div>
   );

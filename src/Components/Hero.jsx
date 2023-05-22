@@ -11,12 +11,10 @@ export default function Hero({ title, description }) {
   };
 
   const FIRST_IMAGE = {
-    imageUrl: "img/hoeme.png",
-    text: "designer",
+    imageUrl: "img/n2.png",
   };
   const SECOND_IMAGE = {
-    imageUrl: "img/sprite-home.png",
-    text: "<coder>",
+    imageUrl: "img/a1.png",
   };
 
   return (
@@ -26,16 +24,6 @@ export default function Hero({ title, description }) {
           <Navbar showMenu={showMenu} handleToggleMenu={handleToggleMenu} />
         </div>
         <div className="relative bg-no-repeat bg-center bg-cover mt-14">
-          <div className="hidden lg:block absolute top-1/2 left-[32%] transform -translate-x-1/2 -translate-y-1/2">
-            <p className="text-black font-semibold text-2xl md:text-5xl">
-              {FIRST_IMAGE.text}
-            </p>
-          </div>
-          <div className="hidden md:block absolute right-[22%] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <p className=" text-black font-semibold text-2xl  md:text-5xl">
-              {SECOND_IMAGE.text}
-            </p>
-          </div>
           <ReactBeforeSliderComponent
             className="z-10 mx-auto max-w-screen-lg md:max-w-screen-md"
             firstImage={FIRST_IMAGE}
