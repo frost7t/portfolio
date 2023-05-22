@@ -38,20 +38,17 @@ export default function Navbar() {
             </ul>
             <span
               onClick={() => setShowMenu(!showMenu)}
-              className="text-xl md:block lg:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-white cursor-pointer"
+              className="text-xl md:block lg:hidden  w-10 h-10 md:h-full inline-flex items-center justify-center rounded-full text-white cursor-pointer"
             >
               <FiMenu />
             </span>
             {showMenu && (
-              <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-[#111] p-4 scrollbar-hide">
+              <div className="w-[100%]  overflow-scroll absolute top-0 left-0 bg-[#202020] p-4 scrollbar-hide">
                 <div className="flex flex-col gap-8 py-2 relative">
                   <div className="text-white text-xl">
                     <span className="bg-gradient-to-r from-gray-400 to-white text-transparent bg-clip-text">
                       AR
                     </span>
-                  </div>
-                  <div className="text-white">
-                    <Icons />
                   </div>
                   <ul className="flex flex-col gap-4 text-center">
                     {dataNavLinks.map((item) => (
@@ -70,6 +67,9 @@ export default function Navbar() {
                       </>
                     ))}
                   </ul>
+                  <div className="text-white">
+                    <Icons />
+                  </div>
                   <div className="flex flex-col gap-4">
                     <span
                       onClick={() => setShowMenu(false)}
