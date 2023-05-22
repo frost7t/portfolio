@@ -5,6 +5,7 @@ import CardRandom from "@/Components/cards/CardRandom";
 import CardStory from "@/Components/cards/CardStory";
 import { DataStory } from "@/data/DataStory";
 import Layout from "@/layout/Layout";
+import Link from "next/link";
 import React from "react";
 
 export default function About() {
@@ -58,7 +59,7 @@ export default function About() {
           </div>
           <div className="border-b-2 border">
             <div className="">
-              <aside className="">
+              <aside>
                 {DataStory.map((item, index) => (
                   <div key={index}>
                     <CardStory

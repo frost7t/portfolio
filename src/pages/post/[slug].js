@@ -47,7 +47,8 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Index({ post }) {
-  const { title, content, extract, createdAt, imgSinglePage, Do } = post.fields;
+  const { title, content, extract, createdAt, imgSinglePage, Do,} =
+    post.fields;
   // console.log(post.fields)
   return (
     <>

@@ -1,6 +1,5 @@
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import React from "react";
-import CardUsers from "./CardUsers";
 
 export default function CardSlug({
   title,
@@ -29,10 +28,6 @@ export default function CardSlug({
         <div className="shadow-lg ">
           <img src={imgSinglePage} alt={title} className="h-auto max-w-full" />
         </div>
-      </div>
-      {/* les users qui participent au projet */}
-      <div>
-        <CardUsers />
       </div>
     </>
   );

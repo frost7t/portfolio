@@ -1,18 +1,17 @@
 export const DataStory = [
   {
-    title: "Featured here & there",
+    title: "My skills",
     description:
-      "I've been lucky enough to have my work featured in books, magazines and websites around the world. I've also spoken at various design events and enjoy sharing my love of design on social media.",
-    subtitle: "View featured work",
-    url_img: "img/featured.jpg",
+      "The diagram to your right shows you my skills from January 2023 to present you can see my latest projects related to my skills by clicking below",
+    subtitle: "View work",
+    url_img: "img/dia.png",
   },
 
   {
     title: "My Setup",
     description:
-      "Over nearly 2 decades working as a product designer, I’ve found that you really only need a small handful of UI design guidelines to solve most interface design problems. Learn these quick, practical and powerful guidelines.",
-    subtitle: "Read the book",
-    url_img: "img/bookk.jpg",
-   
+      "my setup consists of 2 screen, it’s the top for the code, also compose a mouse and a mechanical keyboard, a configuration worthy of a gamer as well as a hard worker.",
+    subtitle: "Back to Home",
+    url_img: "img/setup.jpg",
   },
 ];

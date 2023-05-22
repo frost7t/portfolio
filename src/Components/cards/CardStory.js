@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function CardStory({ title, description, subtitle, url_img }) {
@@ -9,7 +10,9 @@ export default function CardStory({ title, description, subtitle, url_img }) {
             <div className="lg:py-20">
               <h1 className="text-3xl">{title}</h1>
               <p className="py-3 font-light text-lg">{description}</p>
-              <p className="underline font-light">{subtitle}</p>
+              <Link href="/">
+                <p className="underline font-light">{subtitle}</p>
+              </Link>
             </div>
             <div>
               <img
