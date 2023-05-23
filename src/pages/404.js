@@ -26,9 +26,9 @@ export default function NotFound() {
               </div>
             </Link>
           </div>
-          <div className="w-10/12 pb-5">
+          <div className="pb-5">
             <img
-              src="../img/yoda2.jpg"
+              src="../img/yoda3.png"
               alt="error404"
               className="h-auto lg:max-w-xl "
             />

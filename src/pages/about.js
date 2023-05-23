@@ -44,7 +44,7 @@ export default function About() {
           <div className="">
             <div className="mx-auto max-w-[1040px] ">
               <CardRandom
-                url_img="img/yoda.jpg"
+                url_img="img/syoda3.png"
                 title="Random facts"
                 subtitle="I drink a lot of tea and coffee"
                 subtitle1="i'm into Web developer"
