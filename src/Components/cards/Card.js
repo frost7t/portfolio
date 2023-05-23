@@ -10,12 +10,12 @@ export default function Card({ img, title, extract, slug }) {
             <img
               src={img}
               alt={title}
-              className="w-96 h-48  object-cover rounded-2xl  p-3"
+              className="w-96 h-48  object-cover rounded-xl"
             />
           </div>
           <div className="text-left pl-8">
             <p className="pt-1 max-w-sm">{title}</p>
-            <p className="pb-4 max-w-sm">{extract}</p>
+            <p className="pb-2 max-w-sm">{extract}</p>
           </div>
         </div>
       </Link>
