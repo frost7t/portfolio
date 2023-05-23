@@ -16,7 +16,7 @@ export default function Home({ posts }) {
             <span className="mx-8 uppercase ">Some of my latest work</span>
             <div className="w-1/6 border-t border-gray-400 hidden sm:block"></div>
           </div>
-          <div className="max-w-[1040px] grid grid-cols-1 lg:py-12  gap-5 mx-auto md:grid-cols-2 px-5 lg:grid-cols-3 ">
+          <div className=" grid grid-cols-1 lg:py-12  gap-5 mx-auto md:grid-cols-2 px-5 lg:grid-cols-3 ">
             {posts.map((post) => (
               <Card
                 key={post.sys.id}
