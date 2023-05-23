@@ -5,7 +5,7 @@ export default function Card({ img, title, extract, slug }) {
   return (
     <>
       <Link href={`post/${slug}`}>
-        <div className="mx-auto flex flex-col items-center  lg:my-5  rounded-md  shadow-xl hover:shadow-2xl">
+        <div className="mx-auto  items-center grid grid-cols-1  rounded-md  shadow-xl hover:shadow-2xl">
           <div>
             <img
               src={img}
