@@ -5,10 +5,12 @@ import React from "react";
 export default function NotFound() {
   return (
     <Layout>
-      <div className="border-b-2 border shadow-lg h-screen">
-        <div className="flex  mx-auto max-w-[1040px] pt-10">
-          <div className="flex-col py-20">
-            <h1 className="text-7xl font-medium text-gray-800 pb-3">Hmmm...</h1>
+      <div className="border-b-2 border shadow-lg lg:pb-24 ">
+        <div className=" mx-auto max-w-[1040px] px-5 pt-10 grid grid-cols-1 lg:grid-cols-2">
+          <div className="flex-col  pb-10">
+            <h1 className="text-4xl lg:text-7xl font-medium text-gray-800 pb-3">
+              Hmmm...
+            </h1>
             <p className="pb-3 text-2xl font-extralight">
               Occured,a 404 error has. | sense <br /> much fear in you.
             </p>
@@ -24,11 +26,11 @@ export default function NotFound() {
               </div>
             </Link>
           </div>
-          <div className="">
+          <div className="w-10/12 pb-5">
             <img
               src="../img/yoda2.jpg"
               alt="error404"
-              className="h-auto max-w-xl "
+              className="h-auto lg:max-w-xl "
             />
           </div>
         </div>

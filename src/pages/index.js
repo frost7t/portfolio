@@ -1,6 +1,5 @@
 import Hero from "@/Components/Hero";
 import Card from "@/Components/cards/Card";
-import Footer from "@/Components/footer/Footer";
 import Layout from "@/layout/Layout";
 import { createClient } from "contentful";
 
