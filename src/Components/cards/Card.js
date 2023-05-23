@@ -5,12 +5,12 @@ export default function Card({ img, title, extract, slug }) {
   return (
     <>
       <Link href={`post/${slug}`}>
-        <div className="mx-auto   flex flex-col items-center my-5 lg:my-10  rounded-md  shadow-xl hover:shadow-2xl">
+        <div className="mx-auto flex flex-col items-center my-5 lg:my-10  rounded-md  shadow-xl hover:shadow-2xl">
           <div>
             <img
               src={img}
               alt={title}
-              className="w-96 h-48  object-cover rounded-2xl  p-3"
+              className="w-full h-48  object-cover rounded-2xl  p-3"
             />
           </div>
           <div className="text-left pl-8">
