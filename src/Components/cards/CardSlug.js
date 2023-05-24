@@ -25,7 +25,7 @@ export default function CardSlug({
             <p>{Do}</p>
           </div>
         </div>
-        <div className="shadow-lg ">
+        <div className="shadow-lg mt-5 ">
           <img src={imgSinglePage} alt={title} className="h-auto max-w-full" />
         </div>
       </div>
