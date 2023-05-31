@@ -5,7 +5,6 @@ import CardRandom from "@/Components/cards/CardRandom";
 import CardStory from "@/Components/cards/CardStory";
 import { DataStory } from "@/data/DataStory";
 import Layout from "@/layout/Layout";
-import Link from "next/link";
 import React from "react";
 
 export default function About() {
