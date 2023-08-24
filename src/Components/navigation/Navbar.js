@@ -7,13 +7,14 @@ import { dataNavLinks } from "@/data/DataNavLink";
 import Icons from "./Icons";
 
 export default function Navbar() {
-  const [showMenu, setShowMenu] = useState(false);
-  const router = useRouter();
+  const [showMenu, setShowMenu] = useState(false); // État pour suivre l'affichage ou la cachette du menu mobile
+  const router = useRouter(); // Obtention de la route actuelle en utilisant le hook useRouter de Next.js
 
   return (
     <>
       <div className="flex justify-center  py-5 items-center  mx-auto bg-[#111]">
         <div className="flex items-center">
+          {/* Logo */}
           <div className="text-white text-2xl items-center">
             <Link href="/">
               <span className="bg-gradient-to-r from-gray-400 to-white text-3xl text-transparent bg-clip-text">
@@ -42,6 +43,7 @@ export default function Navbar() {
             >
               <FiMenu />
             </span>
+            {/* Menu mobile */}
             {showMenu && (
               <div className="w-[100%]  overflow-scroll absolute top-0 left-0 bg-[#202020] p-4 scrollbar-hide">
                 <div className="flex flex-col gap-8 py-2 relative">
@@ -52,19 +54,17 @@ export default function Navbar() {
                   </div>
                   <ul className="flex flex-col gap-4 text-center">
                     {dataNavLinks.map((item) => (
-                      <>
-                        <li
-                          key={item.id}
-                          className="text-base uppercase font-normal text-white tracking-wide cursor-pointer duration-300 hover:text-red-950"
+                      <li
+                        key={item.id}
+                        className="text-base uppercase font-normal text-white tracking-wide cursor-pointer duration-300 hover:text-red-950"
+                      >
+                        <Link
+                          href={item.link}
+                          onClick={() => setShowMenu(false)}
                         >
-                          <Link
-                            href={item.link}
-                            onClick={() => setShowMenu(false)}
-                          >
-                            {item.title}
-                          </Link>
-                        </li>
-                      </>
+                          {item.title}
+                        </Link>
+                      </li>
                     ))}
                   </ul>
                   <div className="text-white">
