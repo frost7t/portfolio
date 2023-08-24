@@ -15,9 +15,8 @@ export default function NotFound() {
               Occured,a 404 error has. | sense <br /> much fear in you.
             </p>
             <h3 className="text-lg font-light">
-              {/* fr = Faites confiance à la force, videz votre esprit, désapprenez ce que vous avez appris et trouvez la page qui vous intéresse. */}
-              Trust in the force, clear your mind,unlearn what you have learned,
-              and find you minssing page you wil
+            {/* /* fr = Faites confiance à la force, videz votre esprit */}
+              Trust in the force, clear your mind
             </h3>
             <Link href="/">
               <div className="flex gap-3 text-white text-xl font-semibold pt-5">
