@@ -16,7 +16,7 @@ export default function CardContact({ title, subtitle, url_img }) {
         <CardIconsContact />
       </div>
       <div>
-        <img src={url_img} alt={title} className="h-auto max-w-full mt-4" />
+        <img src={url_img} alt={title} className="h-auto max-w-full md:mt-16 lg:mt-8" />
       </div>
     </div>
   );
