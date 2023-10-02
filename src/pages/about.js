@@ -72,13 +72,6 @@ export default function About() {
               </aside>
             </div>
           </div>
-          <div className="mx-auto max-w-[1040px] ">
-            <CardQrCode
-              title="Scan me"
-              url_img="img/Qr.png"
-              subtitle="online CV"
-            />
-          </div>
         </div>
       </Layout>
     </>
