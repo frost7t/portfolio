@@ -11,7 +11,7 @@ export default function CardForm() {
 
   return (
     <>
-      <div className="flex flex-col items-center  h-full py-10 lg:py-20">
+      <div className="flex flex-col items-center  h-full py-10 md:py-20 lg:py-36">
         <h1 className="text-2xl mb-4">Send me an email</h1>
         <form
           onSubmit={handleSubmit}
