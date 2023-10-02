@@ -20,7 +20,7 @@ export default function Icons() {
         </svg>
       </Link>
       {/* linkedin */}
-      <Link href="/404">
+      <Link href="https://www.linkedin.com/in/antoine-raimbault-985ab3261/">
         <svg
           className="hover:text-gray-500"
           stroke="currentColor"

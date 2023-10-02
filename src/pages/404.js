@@ -5,7 +5,7 @@ import React from "react";
 export default function NotFound() {
   return (
     <Layout>
-      <div className="border-b-2 border shadow-lg lg:pb-24 ">
+      <div className="border-b-2 border shadow-lg lg:pb-24 lg:h-screen">
         <div className=" mx-auto max-w-[1040px] px-5 pt-10 grid grid-cols-1 lg:grid-cols-2">
           <div className="flex-col  pb-10">
             <h1 className="text-4xl lg:text-7xl font-medium text-gray-800 pb-3">
