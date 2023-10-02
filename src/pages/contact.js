@@ -14,7 +14,7 @@ export default function Contact() {
             url_img="img/ai.jpg"
           />
         </div>
-        <div className="bg-[#f6f6f6]">
+        <div className="bg-[#f6f6f6] max-h-screen">
           <CardForm />
         </div>
       </Layout>
